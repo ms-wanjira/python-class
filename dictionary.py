@@ -38,18 +38,15 @@
 
 
 
-#tasklist = [23, "Jane", ["Lesson 23", 560, {"currency" : "KES"}], 987, (76,"John")]
+tasklist = [23, "Jane", ["Lesson 23", 560, {"currency" : "KES"}], 987, (76,"John")]
 # print(type(tasklist))
 # print(tasklist[2])
 # print(tasklist[2][2]["currency"])
-# # print(tasklist[2][1])
-# # print(len(tasklist))
-
-# tasklist[3] = str(tasklist[3])
-# tasklist[3] = int(str(tasklist[3][::-2]))
-#print(tasklist)
-
-
+# print(tasklist[2][1])
+# print(len(tasklist)
+tasklist[3] = str(tasklist[3])
+tasklist[3] = int(str(tasklist[3][::-1]))
+print(tasklist)
 
 
 # y= tasklist
@@ -58,7 +55,7 @@
 
 
 
-tasklist= [23, "Jane", ["Lesson 23", 560, {"currency" : "KES"}], 987, (76,"John")]
+# tasklist= [23, "Jane", ["Lesson 23", 560, {"currency" : "KES"}], 987, (76,"John")]
 
 # tasklist[4]=list(tasklist[4])
 # tasklist[4][1] = "Jane"
@@ -66,8 +63,13 @@ tasklist= [23, "Jane", ["Lesson 23", 560, {"currency" : "KES"}], 987, (76,"John"
 
 # print(tasklist[4])
 
-tasklist[4]=(76,"jane")
-print(tasklist[4])
+# tasklist[4]=(76,"jane")
+# print(tasklist[4])
+
+
+
+
+
 
 
 

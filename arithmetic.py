@@ -1,9 +1,9 @@
-num1 = 2
-num2 = 5
-# print(num1 // num2)
-# print(num1 ** num2)
-# print(num1 % num2)
-print(num1 *32)
+# num1 = 2
+# num2 = 5
+# # print(num1 // num2)
+# # print(num1 ** num2)
+# # print(num1 % num2)
+# print(num1 *32)
 
 
 # n = (num1 % 2)
@@ -46,6 +46,12 @@ print(num1 *32)
 
 # print(m)
 
+# num_1 = 6
+# num_2 = 7
+
+
+# x = input("Enter a number ")
+# print(x)
 
 
 

@@ -41,35 +41,38 @@
 # elif t[0:2] =="01":
 #     t = "+254" + t[1:]
 # elif t[0:3] == "254":
-#     t = "+254" + t[2:]
+#     t = "+254" + t[3:]
 
 
 # print(t)
 
 
 # # QUESTION FIVE
-# email =(input("Enter email address"))sammykipk
+# email =(input("Enter email address"))
 # x = email.split("@")
 # c = email.split(".")
 # v = x + c
 # print(v)
 
-# if v  == "@" or v == ".":
+# if v  == "@" and v == ".":
 #     print("valid email")
 # else:
 #     print("invalid")
 
 # at_sign = "@"
+# case= ".com"
 
-# email = input("Entert your email : ")
+# a = str(input("enter your email : "))
 
-# if at_sign in email :
+# if at_sign in a and case in a:
 #     print("Your email is vailid")
 # else:
 #     print("Your email is invalid")
 
 
-# QUESTION SIX
+
+
+# QUESTION SEVEN
 
 # my_tuple =(1,2,3,4,5,6,7,8,9,10)
 
@@ -79,6 +82,28 @@
 # c= my_tuple[5:10]
 # print(c)
     
+
+
+for number in range(1, 201):
+    count= 0
+# # print(count)
+    for i in range(2, (number//2 + 1)):
+         print("zero", i)
+#         if(number % i ==0):
+#             count=count + 1
+#             break
+
+#     if(count == 0 and number !=1):
+#        print("%d" %number, end= " ")
+
+
+
+
+
+
+# QUESTION NINE
+
+
 
 
 

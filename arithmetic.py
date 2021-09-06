@@ -53,6 +53,13 @@
 # x = input("Enter a number ")
 # print(x)
 
+# ticket_number = (input("Enter ticket number"))
+# first = ticket_number[0]
+# last = ticket_number[-1]
+# if first == "1" and last =="7":
+#    print("your a winner")
+# else:
+#     print("your not a winner")
 
 
 

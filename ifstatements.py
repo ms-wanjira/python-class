@@ -5,10 +5,13 @@ print(y)
 z = int(float(y))
 print(z)
 
-if (z <=50):
+if z<=0 and z>=100:
     print("fail")
-else(z <= 100):
-  print("Pass")
+else:
+    if z>0 and z <= 50:
+     print("fail")
+    else:
+     print("pass")
 
 
 

@@ -39,13 +39,13 @@
 # modified_date = todays_date.replace(year=1998)
 # print("Modified date: ", modified_date)
 
-import datetime
+# import datetime
 
-birthdate=datetime.date(1998,10,16)
-enddate=datetime.date(2020,9,8)
-time_difference =(enddate) - (birthdate)
-age = time_difference
-print(age)
+# birthdate=datetime.date(1998,10,16)
+# enddate=datetime.date(2020,9,8)
+# time_difference =(enddate) - (birthdate)
+# age = time_difference
+# print(age)
 
 # from datetime import date
 

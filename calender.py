@@ -72,12 +72,12 @@
 #         return today.year -born.year
 # print(calculateAge(date(1997, 2,3)), "years")
 
-# from datetime import date
-# def calculateAge(birthDate):
-#     days_in_year =365
-#     age = int((date.today() - birthDate).days /days_in_year)
-#     return age
-# print(calculateAge(date(1998, 10,16)), "years")
+from datetime import date
+def calculateAge(birthDate):
+    # days_in_year =365
+    age = int((date.today() - birthDate).days)
+    return age
+print(calculateAge(date(1998, 10,16)), "years")
 
 
 

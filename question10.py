@@ -6,7 +6,6 @@
 # diff = b - a
 # print (diff.days)
 
-
 import datetime
 date=int(input("enter date"))
 month=int(input("enter month: "))
@@ -14,6 +13,39 @@ year=int(input("enter year: "))
 dob = datetime.datetime(year,month,date)
 days = datetime.datetime.now() - (dob)
 print(days)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

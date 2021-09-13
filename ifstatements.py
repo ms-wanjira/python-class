@@ -14,17 +14,6 @@ else:
      print("pass")
 
 
-
-
-
-
-
-
-
-
-
-
-
 # x = float(input("Enter number "))
 # y = float(input("Enter a number "))
 # z = float(input("Enter a number"))

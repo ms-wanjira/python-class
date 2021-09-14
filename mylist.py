@@ -3,9 +3,9 @@
 # names="Tamara", "Victor" ,"Edith"
 # print(names)
 
-names=[352, 344, 1000, 4>66, 3.90]
-print(names)
-print(type(names))
+# names=[352, 344, 1000, 4>66, 3.90]
+# print(names)
+# print(type(names))
 
 # names.extend)
 # print(names)
@@ -23,10 +23,10 @@ lsi=["John", 20,[40, "Mary"], 30]
 # print(lsi)
 
 # print(lsi[2])
-print(lsi[2][1])
+# print(lsi[2][1])
 
 w=print(lsi[2][1][2:])
-# print(w)
+print(w)
 
 
 

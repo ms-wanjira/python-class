@@ -25,7 +25,7 @@ pension=gross-nssf
 print("pension:", pension)
 
 # payee
-# payee=((pension)*%)
+ # payee=((pension)*%)
 
 # x=pension
 

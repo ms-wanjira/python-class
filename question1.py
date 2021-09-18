@@ -12,9 +12,7 @@
 # elif(marks >= 79):
 #     print("Grade is A")
 # else:
-#     print("Grade is invalid")
-
-
+#     print("Grade is invali
 
 
 

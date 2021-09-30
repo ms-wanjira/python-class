@@ -10,7 +10,7 @@ def email_validator(x):
     at = x.find("@")
     for i in range (0, at):
       if ((x[i]>= 'w' and x[i]<='z') or (x[i]>='A' and x[i]<='Z')):
-        w=w+1
+       w=w+1
     if(w >0 and at>0 and (dot-at)>1 and (dot + 1)<y) or(dot -1)>y:
       empty.append(x)
       # print("the email is valid")
@@ -20,8 +20,6 @@ def email_validator(x):
 email_validator= email_validator(email)
 # print("email_validator:",email )
 print(empty)
-
-
 def phone_num(x):  
     if x[0:2] == "07":
         y = "+254" + x[1:]

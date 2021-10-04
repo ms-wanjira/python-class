@@ -8,7 +8,7 @@ def list(x):
 list = list(prods)
 print("Legnth of items: ", len(prods))
 
-
+ 
 def index_sum(x):
     w = (x[0][2])
     v = (x[1][2])

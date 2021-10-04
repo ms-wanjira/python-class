@@ -1,4 +1,4 @@
-email=str(input("Enter email: "))
+email=input("Enter email: ")
 password =str(input("Enter password: "))
 
 def my_login():
